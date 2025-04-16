@@ -1,0 +1,163 @@
+/*$main-color: rgb(32, 117, 187);
+$secondary-color: rgba(130, 159, 174, 0.559);
+
+$font-serif: Georgia, "Times New Roman", Times, serif;
+$font-sans-serif: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+$size-0: 0;
+$size-1: 0.25rem;
+$size-2: 0.5rem;
+$size-3: 1rem;
+$size-4: 1.5rem;
+$size-5: 3rem;
+$size-6: 6rem;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: $font-sans-serif;
+  line-height: 1.4;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: $size-0;
+
+  font: {
+    family: $font-serif;
+    weight: 600;
+  }
+}*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.4;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 600;
+}
+
+.btn-lightblue {
+  background-color: #8fb7e2;
+}
+
+.btn-grey {
+  background-color: #6c757d;
+}
+
+.btn-green {
+  background-color: #0fe742;
+}
+
+.btn-blue {
+  background-color: #17a2b8;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: rgb(127, 123, 123);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0;
+}
+
+nav {
+  background-color: rgba(130, 159, 174, 0.559);
+  padding: 1.5rem;
+}
+nav div div ul {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0;
+}
+nav div div ul li {
+  list-style-type: none;
+}
+
+.flex-nav {
+  display: flex;
+}
+
+.hero {
+  background-color: rgba(130, 159, 174, 0.559);
+  margin-top: 3rem;
+  justify-content: space-between;
+  display: flex;
+}
+
+.text {
+  width: 40%;
+  padding: 3rem;
+}
+
+.img {
+  width: 50%;
+}
+.img img {
+  width: 100%;
+}
+
+section .container .grid {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+section .container .grid div {
+  width: 20%;
+}
+section .container .grid div img {
+  width: 100%;
+}
+
+.bottone-primario {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  background-color: blue;
+  color: white;
+}
+
+.bottone-secondario {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  background-color: rgb(71, 185, 223);
+  color: white;
+}/*# sourceMappingURL=style.css.map */
