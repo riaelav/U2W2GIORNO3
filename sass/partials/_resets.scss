@@ -1,0 +1,38 @@
+$main-color: rgb(32, 117, 187);
+$secondary-color: rgba(130, 159, 174, 0.559);
+
+$font-serif: Georgia, "Times New Roman", Times, serif;
+$font-sans-serif: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+$size-0: 0;
+$size-1: 0.25rem;
+$size-2: 0.5rem;
+$size-3: 1rem;
+$size-4: 1.5rem;
+$size-5: 3rem;
+$size-6: 6rem;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: $font-sans-serif;
+  line-height: 1.4;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: $size-0;
+  font: {
+    family: $font-serif;
+    weight: 600;
+  }
+}

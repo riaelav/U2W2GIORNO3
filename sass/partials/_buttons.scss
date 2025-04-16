@@ -1,0 +1,11 @@
+$button-colors: (
+  lightblue: #8fb7e2,
+  grey: #6c757d,
+  green: #0fe742,
+  blue: #17a2b8,
+);
+@each $name, $color in $button-colors {
+  .btn-#{$name} {
+    background-color: $color;
+  }
+}

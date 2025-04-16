@@ -1,3 +1,42 @@
+/*$main-color: rgb(32, 117, 187);
+$secondary-color: rgba(130, 159, 174, 0.559);
+
+$font-serif: Georgia, "Times New Roman", Times, serif;
+$font-sans-serif: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+$size-0: 0;
+$size-1: 0.25rem;
+$size-2: 0.5rem;
+$size-3: 1rem;
+$size-4: 1.5rem;
+$size-5: 3rem;
+$size-6: 6rem;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: $font-sans-serif;
+  line-height: 1.4;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: $size-0;
+
+  font: {
+    family: $font-serif;
+    weight: 600;
+  }
+}*/
 *,
 *::before,
 *::after {
@@ -76,20 +115,4 @@ section .container .grid div {
 }
 section .container .grid div img {
   width: 100%;
-}
-
-.btn-lightblue {
-  background-color: #8fb7e2;
-}
-
-.btn-grey {
-  background-color: #6c757d;
-}
-
-.btn-green {
-  background-color: #0fe742;
-}
-
-.btn-blue {
-  background-color: #17a2b8;
 }/*# sourceMappingURL=style.css.map */
