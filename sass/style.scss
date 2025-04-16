@@ -38,6 +38,8 @@ h6 {
   }
 }*/
 @import "./partials/resets.scss";
+@import "./partials/buttons.scss";
+@import "./partials/font.scss";
 
 .container {
   width: 100%;
@@ -106,4 +108,12 @@ section {
       }
     }
   }
+}
+
+.bottone-primario {
+  @include bottone(blue, white);
+}
+
+.bottone-secondario {
+  @include bottone(rgb(71, 185, 223), white);
 }
