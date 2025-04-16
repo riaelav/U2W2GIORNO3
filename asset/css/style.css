@@ -85,4 +85,20 @@ section .container .grid div img {
   border: 1px solid #d5d5d5;
   background-image: linear-gradient(#eee, #ddd);
   font: 700 13px/18px Helvetica, arial;
-}/*# sourceMappingURL=style.css.map */
+}
+
+.btn-lightblue {
+  background-color: #8fb7e2;
+}
+
+.btn-grey {
+  background-color: #6c757d;
+}
+
+.btn-green {
+  background-color: #0fe742;
+}
+
+.btn-blue {
+  background-color: #17a2b8;
+} /*# sourceMappingURL=style.css.map */
