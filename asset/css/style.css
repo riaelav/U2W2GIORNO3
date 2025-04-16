@@ -78,15 +78,6 @@ section .container .grid div img {
   width: 100%;
 }
 
-.button {
-  display: inline-block;
-  border-radius: 3px;
-  padding: 7px 12px;
-  border: 1px solid #d5d5d5;
-  background-image: linear-gradient(#eee, #ddd);
-  font: 700 13px/18px Helvetica, arial;
-}
-
 .btn-lightblue {
   background-color: #8fb7e2;
 }
@@ -101,4 +92,4 @@ section .container .grid div img {
 
 .btn-blue {
   background-color: #17a2b8;
-} /*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
